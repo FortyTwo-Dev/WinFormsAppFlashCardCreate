@@ -1,0 +1,1158 @@
+﻿<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="textBoxCard1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 123</value>
+  </data>
+  <data name="textBoxCard1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>360, 23</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="textBoxCard1.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="textBoxCard1.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;textBoxCard1.Name" xml:space="preserve">
+    <value>textBoxCard1</value>
+  </data>
+  <data name="&gt;&gt;textBoxCard1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBoxCard1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;textBoxCard1.ZOrder" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="labelCard1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelCard1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="labelCard1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 99</value>
+  </data>
+  <data name="labelCard1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 21</value>
+  </data>
+  <data name="labelCard1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="labelCard1.Text" xml:space="preserve">
+    <value>First Card</value>
+  </data>
+  <data name="&gt;&gt;labelCard1.Name" xml:space="preserve">
+    <value>labelCard1</value>
+  </data>
+  <data name="&gt;&gt;labelCard1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelCard1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelCard1.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="labelCard2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelCard2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="labelCard2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>428, 99</value>
+  </data>
+  <data name="labelCard2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 21</value>
+  </data>
+  <data name="labelCard2.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="labelCard2.Text" xml:space="preserve">
+    <value>Second Card</value>
+  </data>
+  <data name="&gt;&gt;labelCard2.Name" xml:space="preserve">
+    <value>labelCard2</value>
+  </data>
+  <data name="&gt;&gt;labelCard2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelCard2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelCard2.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="textBoxCard2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>428, 123</value>
+  </data>
+  <data name="textBoxCard2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>360, 23</value>
+  </data>
+  <data name="textBoxCard2.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="textBoxCard2.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;textBoxCard2.Name" xml:space="preserve">
+    <value>textBoxCard2</value>
+  </data>
+  <data name="&gt;&gt;textBoxCard2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBoxCard2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;textBoxCard2.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <metadata name="menuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="closeToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 22</value>
+  </data>
+  <data name="closeToolStripMenuItem.Text" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="menuToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 20</value>
+  </data>
+  <data name="menuToolStripMenuItem.Text" xml:space="preserve">
+    <value>Menu</value>
+  </data>
+  <data name="chooseToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>114, 22</value>
+  </data>
+  <data name="chooseToolStripMenuItem.Text" xml:space="preserve">
+    <value>Choose</value>
+  </data>
+  <data name="toolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>111, 6</value>
+  </data>
+  <data name="allCategoryToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>181, 22</value>
+  </data>
+  <data name="allCategoryToolStripMenuItem1.Text" xml:space="preserve">
+    <value>All Category</value>
+  </data>
+  <data name="toolStripSeparator2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>178, 6</value>
+  </data>
+  <data name="toolStripComboBoxCategory.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 23</value>
+  </data>
+  <data name="validateToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>181, 22</value>
+  </data>
+  <data name="validateToolStripMenuItem.Text" xml:space="preserve">
+    <value>Validate</value>
+  </data>
+  <data name="aléaToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>114, 22</value>
+  </data>
+  <data name="aléaToolStripMenuItem1.Text" xml:space="preserve">
+    <value>Aléa</value>
+  </data>
+  <data name="flashCardToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>74, 20</value>
+  </data>
+  <data name="flashCardToolStripMenuItem.Text" xml:space="preserve">
+    <value>Flash Card</value>
+  </data>
+  <data name="menuStrip1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="menuStrip1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>800, 24</value>
+  </data>
+  <data name="menuStrip1.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="menuStrip1.Text" xml:space="preserve">
+    <value>menuStrip1</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.Name" xml:space="preserve">
+    <value>menuStrip1</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuStrip, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.ZOrder" xml:space="preserve">
+    <value>26</value>
+  </data>
+  <data name="buttonGenerate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 214</value>
+  </data>
+  <data name="buttonGenerate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>114, 42</value>
+  </data>
+  <data name="buttonGenerate.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="buttonGenerate.Text" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="&gt;&gt;buttonGenerate.Name" xml:space="preserve">
+    <value>buttonGenerate</value>
+  </data>
+  <data name="&gt;&gt;buttonGenerate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonGenerate.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;buttonGenerate.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="textBoxClue1Card1.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="textBoxClue1Card1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 152</value>
+  </data>
+  <data name="textBoxClue1Card1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 23</value>
+  </data>
+  <data name="textBoxClue1Card1.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;textBoxClue1Card1.Name" xml:space="preserve">
+    <value>textBoxClue1Card1</value>
+  </data>
+  <data name="&gt;&gt;textBoxClue1Card1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBoxClue1Card1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;textBoxClue1Card1.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="textBoxClue2Card1.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="textBoxClue2Card1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>134, 152</value>
+  </data>
+  <data name="textBoxClue2Card1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 23</value>
+  </data>
+  <data name="textBoxClue2Card1.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;textBoxClue2Card1.Name" xml:space="preserve">
+    <value>textBoxClue2Card1</value>
+  </data>
+  <data name="&gt;&gt;textBoxClue2Card1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBoxClue2Card1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;textBoxClue2Card1.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="textBoxClue3Card1.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="textBoxClue3Card1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>256, 152</value>
+  </data>
+  <data name="textBoxClue3Card1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 23</value>
+  </data>
+  <data name="textBoxClue3Card1.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;textBoxClue3Card1.Name" xml:space="preserve">
+    <value>textBoxClue3Card1</value>
+  </data>
+  <data name="&gt;&gt;textBoxClue3Card1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBoxClue3Card1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;textBoxClue3Card1.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="textBoxClue1Card2.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="textBoxClue1Card2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>428, 152</value>
+  </data>
+  <data name="textBoxClue1Card2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 23</value>
+  </data>
+  <data name="textBoxClue1Card2.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;textBoxClue1Card2.Name" xml:space="preserve">
+    <value>textBoxClue1Card2</value>
+  </data>
+  <data name="&gt;&gt;textBoxClue1Card2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBoxClue1Card2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;textBoxClue1Card2.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="textBoxClue2Card2.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="textBoxClue2Card2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>550, 152</value>
+  </data>
+  <data name="textBoxClue2Card2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 23</value>
+  </data>
+  <data name="textBoxClue2Card2.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;textBoxClue2Card2.Name" xml:space="preserve">
+    <value>textBoxClue2Card2</value>
+  </data>
+  <data name="&gt;&gt;textBoxClue2Card2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBoxClue2Card2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;textBoxClue2Card2.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="textBoxClue3Card2.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="textBoxClue3Card2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>672, 152</value>
+  </data>
+  <data name="textBoxClue3Card2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 23</value>
+  </data>
+  <data name="textBoxClue3Card2.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;textBoxClue3Card2.Name" xml:space="preserve">
+    <value>textBoxClue3Card2</value>
+  </data>
+  <data name="&gt;&gt;textBoxClue3Card2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBoxClue3Card2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;textBoxClue3Card2.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="checkBoxClue1Card1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBoxClue1Card1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 181</value>
+  </data>
+  <data name="checkBoxClue1Card1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 19</value>
+  </data>
+  <data name="checkBoxClue1Card1.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="checkBoxClue1Card1.Text" xml:space="preserve">
+    <value>Clue1</value>
+  </data>
+  <data name="&gt;&gt;checkBoxClue1Card1.Name" xml:space="preserve">
+    <value>checkBoxClue1Card1</value>
+  </data>
+  <data name="&gt;&gt;checkBoxClue1Card1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBoxClue1Card1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;checkBoxClue1Card1.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="checkBoxClue2Card1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBoxClue2Card1.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="checkBoxClue2Card1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>134, 181</value>
+  </data>
+  <data name="checkBoxClue2Card1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 19</value>
+  </data>
+  <data name="checkBoxClue2Card1.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="checkBoxClue2Card1.Text" xml:space="preserve">
+    <value>Clue2</value>
+  </data>
+  <data name="&gt;&gt;checkBoxClue2Card1.Name" xml:space="preserve">
+    <value>checkBoxClue2Card1</value>
+  </data>
+  <data name="&gt;&gt;checkBoxClue2Card1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBoxClue2Card1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;checkBoxClue2Card1.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="checkBoxClue3Card1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBoxClue3Card1.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="checkBoxClue3Card1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>256, 181</value>
+  </data>
+  <data name="checkBoxClue3Card1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 19</value>
+  </data>
+  <data name="checkBoxClue3Card1.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="checkBoxClue3Card1.Text" xml:space="preserve">
+    <value>Clue3</value>
+  </data>
+  <data name="&gt;&gt;checkBoxClue3Card1.Name" xml:space="preserve">
+    <value>checkBoxClue3Card1</value>
+  </data>
+  <data name="&gt;&gt;checkBoxClue3Card1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBoxClue3Card1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;checkBoxClue3Card1.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="checkBoxClue1Card2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBoxClue1Card2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>428, 181</value>
+  </data>
+  <data name="checkBoxClue1Card2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 19</value>
+  </data>
+  <data name="checkBoxClue1Card2.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="checkBoxClue1Card2.Text" xml:space="preserve">
+    <value>Clue1</value>
+  </data>
+  <data name="&gt;&gt;checkBoxClue1Card2.Name" xml:space="preserve">
+    <value>checkBoxClue1Card2</value>
+  </data>
+  <data name="&gt;&gt;checkBoxClue1Card2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBoxClue1Card2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;checkBoxClue1Card2.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="checkBoxClue2Card2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBoxClue2Card2.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="checkBoxClue2Card2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>550, 181</value>
+  </data>
+  <data name="checkBoxClue2Card2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 19</value>
+  </data>
+  <data name="checkBoxClue2Card2.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="checkBoxClue2Card2.Text" xml:space="preserve">
+    <value>Clue2</value>
+  </data>
+  <data name="&gt;&gt;checkBoxClue2Card2.Name" xml:space="preserve">
+    <value>checkBoxClue2Card2</value>
+  </data>
+  <data name="&gt;&gt;checkBoxClue2Card2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBoxClue2Card2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;checkBoxClue2Card2.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="checkBoxClue3Card2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBoxClue3Card2.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="checkBoxClue3Card2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>672, 181</value>
+  </data>
+  <data name="checkBoxClue3Card2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 19</value>
+  </data>
+  <data name="checkBoxClue3Card2.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="checkBoxClue3Card2.Text" xml:space="preserve">
+    <value>Clue3</value>
+  </data>
+  <data name="&gt;&gt;checkBoxClue3Card2.Name" xml:space="preserve">
+    <value>checkBoxClue3Card2</value>
+  </data>
+  <data name="&gt;&gt;checkBoxClue3Card2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBoxClue3Card2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;checkBoxClue3Card2.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="comboBoxCategory.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 61</value>
+  </data>
+  <data name="comboBoxCategory.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 23</value>
+  </data>
+  <data name="comboBoxCategory.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;comboBoxCategory.Name" xml:space="preserve">
+    <value>comboBoxCategory</value>
+  </data>
+  <data name="&gt;&gt;comboBoxCategory.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;comboBoxCategory.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;comboBoxCategory.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 37</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 21</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Category</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="textBoxCategory.Location" type="System.Drawing.Point, System.Drawing">
+    <value>139, 61</value>
+  </data>
+  <data name="textBoxCategory.Size" type="System.Drawing.Size, System.Drawing">
+    <value>168, 23</value>
+  </data>
+  <data name="textBoxCategory.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;textBoxCategory.Name" xml:space="preserve">
+    <value>textBoxCategory</value>
+  </data>
+  <data name="&gt;&gt;textBoxCategory.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBoxCategory.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;textBoxCategory.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="buttonAddCategory.Location" type="System.Drawing.Point, System.Drawing">
+    <value>139, 90</value>
+  </data>
+  <data name="buttonAddCategory.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 27</value>
+  </data>
+  <data name="buttonAddCategory.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="buttonAddCategory.Text" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="&gt;&gt;buttonAddCategory.Name" xml:space="preserve">
+    <value>buttonAddCategory</value>
+  </data>
+  <data name="&gt;&gt;buttonAddCategory.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonAddCategory.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;buttonAddCategory.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="buttonDeleteCategory.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="buttonDeleteCategory.Location" type="System.Drawing.Point, System.Drawing">
+    <value>226, 90</value>
+  </data>
+  <data name="buttonDeleteCategory.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 27</value>
+  </data>
+  <data name="buttonDeleteCategory.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="buttonDeleteCategory.Text" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="&gt;&gt;buttonDeleteCategory.Name" xml:space="preserve">
+    <value>buttonDeleteCategory</value>
+  </data>
+  <data name="&gt;&gt;buttonDeleteCategory.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonDeleteCategory.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;buttonDeleteCategory.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>555, 48</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 21</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Score : </value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="comboBoxCategoryScore.Location" type="System.Drawing.Point, System.Drawing">
+    <value>428, 50</value>
+  </data>
+  <data name="comboBoxCategoryScore.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 23</value>
+  </data>
+  <data name="comboBoxCategoryScore.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;comboBoxCategoryScore.Name" xml:space="preserve">
+    <value>comboBoxCategoryScore</value>
+  </data>
+  <data name="&gt;&gt;comboBoxCategoryScore.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;comboBoxCategoryScore.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;comboBoxCategoryScore.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="labelScore.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelScore.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="labelScore.Location" type="System.Drawing.Point, System.Drawing">
+    <value>615, 48</value>
+  </data>
+  <data name="labelScore.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 21</value>
+  </data>
+  <data name="labelScore.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="&gt;&gt;labelScore.Name" xml:space="preserve">
+    <value>labelScore</value>
+  </data>
+  <data name="&gt;&gt;labelScore.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelScore.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelScore.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="buttonResetScore.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="buttonResetScore.Location" type="System.Drawing.Point, System.Drawing">
+    <value>550, 72</value>
+  </data>
+  <data name="buttonResetScore.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 27</value>
+  </data>
+  <data name="buttonResetScore.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="buttonResetScore.Text" xml:space="preserve">
+    <value>Reset</value>
+  </data>
+  <data name="&gt;&gt;buttonResetScore.Name" xml:space="preserve">
+    <value>buttonResetScore</value>
+  </data>
+  <data name="&gt;&gt;buttonResetScore.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonResetScore.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;buttonResetScore.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>7, 15</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>800, 268</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAXicAAAEAIABEOwAAFgAAACgAAABeAAAATgAAAAEAIAAAAAAASDkAABMLAAATCwAAAAAAAAAA
+        AAAAAAAFAAAABgAAAAYAAAAFAAAABAAAAAMAAAACAAAAAgAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AACtlv8Bq5L/IG5S/30wH//hISr/9ic1//pBVv/8W3X//GN+//pjfv/6Y37/+mN+//pjfv/6Y37/+mN+
+        //pbdf/6Qlf/+igu//4uIP/+PC3/8kc5/+VaSv/ZfGb/zJV6/8amiP++rIz/LIBo/wEAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/BwcB/wMDG/8AAKj/AADr/wAA+P8A
+        AP7/AAD//wAA/7AAAP94AAD/dgAA/3YBAf92AwL/dgYD/3YHBP92BQP/dgIB/3kAAP+MAAD/yQAA//8A
+        AP//AAD//wAA8P8NCjP/JR0BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAABgAAAAYAAAAGAAAABQAAAAQAAAADAAAAAwAAAAIAAAABAAAAAAAA
+        AAAAAAAAAAAAAKmN/wGoif90a0//7zEr//wvOs7/Ky6G/yAcff8eGXz/Hhh8/x4YfP8eGHz/Hhh8/x4Y
+        fP8eGHz/Hhh8/x4YfP8eGHz/Hhh8/x4YfP8eF3z/HRd8/x0XfPwdF3zsHRd85B0XfNseF3zYMSmn02pY
+        /8yqi/+8oYP/AwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP9oUAH/UjwI/yMY8f8H
+        Bf/IAAD/fAAA/3YAAP92AAD/dgAA/3YAAP92AAD/dgAA/3YAAP92AAD/dgAA/3YAAP92AAD/dgAA/3YA
+        AP92AAD/dgAA/3YAAP92AAD/dgAA/5wAAP//FQ///yge8P89LUH/dl0FAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAUAAAAGAAAABgAAAAUAAAAEAAAABAAA
+        AAMAAAACAwMDAQAAAAAAAAAAq5P/Bp6A/5R5Xf/2Py///x8Zif8fGXz/Hhd8/x0XfP8dF3z/HRd8/x0X
+        fP8dF3z/HRd8/x0XfP8dF3z/HRd8/x0XfP8dF3z/HRd8/x0XfP8dF3z/HRd8/x0XfP8dF3z/HRd8/R0X
+        fPAdF3zoHRd84B0XfN0eGHziQTXo55+B/+Slhv8NAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP+a
+        dBr/flue/3ZY+75DLP53DAb/dgUD/3YCAf92AgH/dgIB/3YBAP92AAD/dgAA/3YAAP92AAD/dgAA/3YA
+        AP92AAD/dgAA/3YAAP92AAD/dgAA/3YAAP92AAD/dgAA/3YBAP92AwH/dg0J/4UtIP//VkT//19M6v+P
+        amn/ooAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFAAAABgAA
+        AAUAAAAFAAAABAAAAAQAAAADAQEBAi0rZQEAAAAAqpD/GGtO/9omGff7HhqD/x4YfP8dF3z/HRd8/x0X
+        fP8dF3z/HRd8/x0XfP8dF3z/HRd8/x0XfP8dF3z/HRd8/x0XfP8dF3z/HRd8/x0XfP8dF3z/HRd8/x0X
+        fP8dF3z/HRd8/x0XfP8dF3z/HRd8/R0XfPgdF3z4HRd89x4XfP84Lsn/hmz//KeI/y4AAAAAAAAAAAAA
+        AAAAAAAA/25PAf+fdTf/clPk+DUn/MJtU/+0c1L/hjgm/3gQB/92BwT/dgIC/3YCAv92AQD/dgAA/3YA
+        AP92AAD/dgAA/3YAAP92AAD/dgAA/3YAAP92AAD/dgAA/3YAAP92AAD/dgAA/3YBAf92AwL/dwkE/4Ex
+        If+hYkT/sGlO/7BaTP//Mx/1/4Vc1P+rgyj/h24BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAABQAAAAUAAAAFAAAABQAAAAUAAAAEAAABAx4ZggKBcP8BpYr/KFxC/+0jGL7/Hxp9/x4X
+        fP8dF3z/HRd8/x0XfP8dF3z/HRd8/x0XfP8dF3z/HRd8/x0XfP8dF3z/HRd8/x0XfP8dF3z/HRd8/x0X
+        fP8dF3z/HRd8/x0XfP8dF3z/HRd8/x0XfP8dF3z/HRd8/x0XfP8dF3z/HRd8/x0XfP8dF3z/HRd8/yEa
+        h/9pVf/+o4T/f6Z4/wgAAAAA/4tuAv+jd3//bVDk1i0h/qctI/+/UT7/6Ilm/8F8W/+fYEL/h0Mq/3gY
+        Dv92CAX/dw0I/3cVDP93Fw3/dxcN/3cXDf93Fw3/dxcN/3cXDf93Fw3/dxcN/3cXDf93FQz/dw4I/3YH
+        BP92BgP/eBcO/4E3Jf+qbVD/14Nh/9RvVv/GUUD/qiog/esjFvz/Wjrj/6V7cv+WcwEAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAUAAAAFAAAABQAAAAUAAAAFAAAABBQOagRsV/8Dpoj/Vl9J
+        //0gGaf/Hhh8/x0XfP8dF3z/HRd8/x0XfP8dF3z/HRd8/x0XfP8dF3z/HRd8/x4XfP8eGHz/Hhh8/x4Y
+        fP8eGHz/Hhh8/x4YfP8eGHz/Hhh8/x4YfP8eGHz/Hhh8/x4YfP8eF3z/HRd8/x0XfP8dF3z/HRd8/x0X
+        fP8dF3z/HRd8/x0XfP8dF3z/Hxl//0o9//+TfP/3/3T/FP962rT/RTL+sycd/6UfF/+nIxv/pyYd/75M
+        O//HaVD/xGxQ/6BYPf+ENiL/lGBD/4thRP/PPyr+/yIV/f8ZD/3/GQ/9/xkP/f8ZD/3/GQ/9/xkP/f8Z
+        D/3/IhX9zz8q/oNXPP+CSjL/eh8S/30sHP+UUDb/sF1G/75UQP+uLiT/piIZ/6QfFv+kHhf/uCAX+/9K
+        Mfn/nXG6/596AgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFAAAABQAAAAUAAAAFAAAABQIB
+        GQVQPv8Ep4j/PHNf//4gGYL/HRd8/x0XfP8dF3z/HRd8/x0XfP8dF3z/HRd8/x0XfP8eGHz/IBx9/ysu
+        hv9FVLb/Xnb/+2iD//xmgf/8Y37/+mN+//pjfv/6Y37/+mN+//pjfv/6ZoH//GV///xQZNn7LzWO/yAc
+        ff8eGHz/HRd8/x0XfP8dF3z/HRd8/x0XfP8dF3z/HRd8/x0XfP8eF3z/US3R//8x////Of//xVs3/7I3
+        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
+        //v/gf//hyX2/3YCIf92AAD/dwAA//8AAP3/AAAGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP+edBL/i2j31S0h/6QgF/+pJx7/qi0i/75Q
+        PP/Ja0//vV1F5MNcSMK1PjGCnoP/5ygikf8dF3z/HRd8/B0XfP4dF3z/HRd8/x4Yff8qHfr9lXf/ugAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAP8//wn/9v/asnb//3YDMf92AAP/dgAA/38AAP//AADa/wAAAQAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/6F1M/94
+        WPvqRjb/3HBV/+SJZP/nlmz/yIZg/799Wvvbi2fv6n9ikph+//UfGH3/HRd8/x0XfP8dF3z/HRd8/x4X
+        fP8kJ7f+Vz//2q2V/wEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/NkcC//7/roOKn/92AgP/dgAB/3YAAP+kAAD//wAApAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAP9iRQH/mW4v/21P7eGSa/+5e1j/nl5D/4AqHv94GxD/mFo+/vKheN2Yff/7Hhd8/x0X
+        fP8dF3z/HRd8/x0XfP8eGHz/Kzn/+2VU/wsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/05QAf/xzq6Pot/9eBus/3YE
+        Qf92AAP//wAA//8AAFsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/21OAv8iF6eFaU3/dxAJ/3YDAf92AgH/dgIB/3cJ
+        Bv+2iWn9mH3/+x0XfP8dF3z/HRd8/x0XfP8dF3z/Hhh8/y9D//tJM/8CAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP96
+        kwH/1NyA/7z/9/9r//+uNf//dgdZ//8BFf//AAYUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP9vUQH/Hxa3hm9S/3YG
+        BP92AQD/dgAA/3YAAP92AgH/hoF2/5h9//sdF3z/HRd8/x0XfP8dF3z/HRd8/x4YfP8uQP/7Yk3/BAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAD/of8Bz6D/RP+M//f/d////33//8lR////LP/9/wxzCgAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAD/h2AE/y4gt5l8Wv92BgT/dgAA/3YAAP92AAD/dgAA/6aVkv+Vev/7HRd8/x0XfP8dF3z/HRd8/x0X
+        fP8eF3z/KTHT/lk//5gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAz6L/AZOL/4SQUcX90DDF//9h////cf///2f/9f83
+        /woAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAD/imQC/5lvfv9oS+3MkWn/fiwd/3YHA/92AQD/dgAA/3YAAP+tm5f/knf//B4X
+        fP8dF3z/HRd8/x0XfP8dF3z/HRd8/x4Zff8pGv/9knX/PgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        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
+        fP8dF3z/HRd8/x0XfP8dF3z/Hhd8/yEfgf8hIej/LBz/+04//6lVP/9HaE//IH1k/xZzW/8WalL/FmpS
+        /xZqUv8WalL/FmpS/xZqUv8Wc1v/Fn1k/xZ4Yf8gemT/VXJW/9RNNP/3JB3//h4Zgf8dF3z/HRd8/x0X
+        fP8dF3z/HRd8/x0XfP8dF3z/HRd8/04bf///fP///3D//445X/+wZUD6sUc1/6s7L/+qKh//qCgg/6Yz
+        J/+4XEb//2FG/f80Inv/IRUJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAP8pGwn/ZEdZ/2xR+sA1KP+iHxb/ox8W/6MeFP+kHhX/pB4V/6QeFf+kHhT/pB4V/9wt
+        If//hWTr/5lyDwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAACAAAAAgAAAAIAAAACAwIfAUo5
+        /wGjhP8oiHL/+TMrsP8dF3z/HRd8/x0XfP8dF3z/HRd8/x0XfP8dF3z/Hhd8/yMif/81Pp3/Q1Xn/k1j
+        //5bdf/6Y37/+mN+//pjfv/6Y37/+mN+//pjfv/6Y37/+mN+//pbdf/6RVr//iw34v4hIZX/Hhp9/x4Y
+        fP8dF3z/HRd8/x0XfP8dF3z/HRd8/x0XfP8dF3z/HRd8/x0XfP8vH4r//2////9e//+aNVn/q1sZ/bFI
+        Nf+jKx//pCAX/6MqIP+wQDD/vW1Q/5RGLf/LKRn//xkQ+/8GBOH/AgGA/wAAgP8AAID/AACA/wAAgP8A
+        AID/AACA/wAAgP8AAID/AACA/wIBgP8GBOH/IBX741xA/+qPa//XaVD/rjIm/6orIP+lIhn/pCEZ/6Yj
+        G/+nJBv/rCQb//g2Kf//elvw/6R4MwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAgAA
+        AAIAAAACAAAAAgAAAAEEAxkBVEH/AaSG/yKDa//6KyK2/x4YfP8dF3z/HRd8/x0XfP8dF3z/HRd8/x0X
+        fP8dF3z/HRd8/x0XfP8eF3z/Hhh8/x4YfP8eGHz/Hhh8/x4YfP8eGHz/Hhh8/x4YfP8eGHz/Hhh8/x4X
+        fP8dF3z/HRd8/x0XfP8dF3z/HRd8/x0XfP8dF3z/HRd8/x0XfP8dF3z/HRd8/x4Yff8/NNz/eWn//v9v
+        /4b/I/9k/zUz+NJIGP2mNSb2u0Mw/6crIP+4TDn/wmtQ/6xpS/+BOCT/dgYE/3YFBP+DBQP/pgIB/7sA
+        AP+7AAD/uwAA/7sAAP+7AAD/uwAA/7sAAP+7AAD/uwAA/6YCAf+DBQP/dwgE/3ohEv+XTTf/zHBX/9px
+        Wf/cb1f/6nld/+FvVv/LV0X/yUE1//9SP/z/jmqt/5xxMwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAgAAAAIAAAACAAAAAgAAAAEAAAABAAAAAQYEJwEAAAAAp4j/Godq//Y1J/D/Hhl+/x4Y
+        fP8dF3z/HRd8/x0XfP8dF3z/HRd8/x0XfP8dF3z/HRd8/x0XfP8dF3z/HRd8/x0XfP8dF3z/HRd8/x0X
+        fP8dF3z/HRd8/x0XfP8dF3z/HRd8/x0XfP8dF3z/HRd8/x0XfP8dF3z/HRd8/x0XfP8dF3z/HRd8/x8Y
+        g/9ZR///n4H/raiD/xEAAAAAAAAAAP9kVhH/Qi3cqw8P/qYxJP/IYEf/34xm/7BzUf+HQCn/eBsQ/3YB
+        Af92AAD/dgAA/3YAAP92AAD/dgAA/3YAAP92AAD/dgAA/3YAAP92AAD/dgAA/3YAAP92AAD/dgEA/3cP
+        B/99IhT/hCAV/4k5K/+nYUj/wXhX/9SHYf/TgFv//2hK//9rT/v/jmiC/4ZiBAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAACAAAAAgAAAAIAAAABAAAAAQAAAAEAAAABAAAAAAAA
+        AACmiv8Dmnr/v2VP//YyKcv/HRd8/x0XfP8dF3z/HRd8/x0XfP8dF3z/HRd8/x0XfP8dF3z/HRd8/x0X
+        fP8dF3z/HRd8/x0XfP8dF3z/HRd8/x0XfP8dF3z/HRd8/x0XfP8dF3z/HRd8/x0XfP8dF3z/HRd8/x0X
+        fP8dF3z/Hhh8/zMqtf92YP/7qYn/TQAAAAAAAAAAAAAAAAAAAAAAAAAA/3pbMP8+LKz/KB/9u11E/6Ji
+        RP9+LR3/dw0G/3YBAf92AAD/dgAA/3YAAP92AAD/dgAA/3YAAP92AAD/dgAA/3YAAP92AAD/dgAA/3YA
+        AP92AAD/dgAA/3YBAP92DAb/ex4S/3slFv9+GA7/eBYL/3keEv94Egr/gy0h//8ZD/f/VDkZ/1g9AQAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAgAAAAIAAAACAAAAAQAA
+        AAEAAAABAAAAAQAAAAAAAAAAAAAAAAAAAACqi/8MpYb/7WtY//4jHI3/HRd8/x0XfP8dF3z/HRd8/x0X
+        fP8dF3z/HRd8/x0XfP8dF3z/HRd8/x0XfP8dF3z/HRd8/x0XfP8dF3z/HRd8/x0XfP8dF3z/HRd8/x0X
+        fP8dF3z/HRd8/x0XfP8eF3z/IBmA/0c6//+YfP/tp4j/HgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAD/dlYH/2BGUv9NN/XAGg7/dgMB/3YAAP92AAD/dgAA/3YAAP92AAD/dgAA/3YAAP92AAD/dgAA/3YA
+        AP92AAD/dgAA/3YAAP92AAD/dgAA/3YAAP92AQD/dgQC/3YGA/93Ewr/fy0f/5NKNPujZ0j+hV9B/v8m
+        GPP/MyMwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAA
+        AAIAAAACAAAAAgAAAAEAAAABAAAAAQAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACujf8bo4T/7W9X
+        //40KOv/IR+B/yAbfP8fGXz/Hhl8/x4YfP8eGHz/Hhh8/x4YfP8eGHz/Hhh8/x4YfP8eGHz/Hhh8/x4Y
+        fP8eGHz/Hhh8/x4YfP8eGXz/Hxl8/yAbff8hH4H/Myfs/3NZ//uoiP+mm37/AQAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/GxEH/w8J/nYaDv92Cwb/dgEB/3YAAP92AAD/dgAA/3YA
+        AP92AAD/dgAA/3YAAP92AAD/dgAA/3YAAP92AAD/dgAA/3YAAP92AAD/dgAA/3YAAP92BQP/gjgl/7Jy
+        UvnLdljhsG1P5f9BMM//TDUlAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAIAAAACAAAAAgAAAAIAAAABAAAAAQAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAACwkv8Fpoj/tF5E/+MmI//7KDb/9kFW//pbdf/8Y37/+mN+//pjfv/6Y37/+mN+
+        //pjfv/6Y37/+mN+//pjfv/6Y37/+mN+//pbdf/8QVb/+ig2//YmJP/4XkX/46eI/7StkP8FAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP9HL6uSVzzvgUkw/ncX
+        Df92BQP/dgEA/3YAAP92AAD/dgAA/3YBAf92BAL/dgYD/3YJBP92CAT/dgUD/3YDAv+dAgH//wAA//8A
+        AP//IRb+yF9E/ZuBXfuTWUDU/yUczP9pTLP/h2AeAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAfgAAAD/8AAAB//wAeAAAAB/wAAAAf/wAYAAAAA/gAAAA
+        H/wAQAAAAAeAAAAAB/wAAAAAAAEAAAAAA/wAAAAAAAAAAAAAAfwAAAAAAAAAAAAAAPwAAAAAAAAAB/8A
+        AHwAAAf/wAAAH//AAHwAAB//8AAAP//wADwAAP///AAAf//8ABwAAf///gAA///+AAwAA////wAD////
+        AAwAB////4AH////gAAAD////4AP////wAAAH////8AP////4AAAP////+AP////8AAAP////+Af////
+        8AAAf////+Af////+AAAf////+Af////+AAAf////+Af////+AAAf////+Af////8AAAP////+Af////
+        8AAAH////+Af////wAAAD////8AP////gAAAB////8AH////AAAAA////4AD///+AAAAAf///wAB///8
+        AAwAAP///gAA///4ABwAAH//+AAAP//wADwAAB//4AAAH//AAHwAAAAAAAAAD/+AAPwAAAAAAAAAAAAA
+        AfwAAAAAAAAAAAAAA/wAgAAAAAGAAAAAB/wAwAAAAAfAAAAAD/wA8AAAAA/gAAAAP/wA/AAAAB/4AAAA
+        f/wB/wAAAH/8AAAA//w=
+</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Flash Card Creator/Generator</value>
+  </data>
+  <data name="&gt;&gt;menuToolStripMenuItem.Name" xml:space="preserve">
+    <value>menuToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;menuToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;closeToolStripMenuItem.Name" xml:space="preserve">
+    <value>closeToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;closeToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;flashCardToolStripMenuItem.Name" xml:space="preserve">
+    <value>flashCardToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;flashCardToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chooseToolStripMenuItem.Name" xml:space="preserve">
+    <value>chooseToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;chooseToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator1.Name" xml:space="preserve">
+    <value>toolStripSeparator1</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;aléaToolStripMenuItem1.Name" xml:space="preserve">
+    <value>aléaToolStripMenuItem1</value>
+  </data>
+  <data name="&gt;&gt;aléaToolStripMenuItem1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;allCategoryToolStripMenuItem1.Name" xml:space="preserve">
+    <value>allCategoryToolStripMenuItem1</value>
+  </data>
+  <data name="&gt;&gt;allCategoryToolStripMenuItem1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator2.Name" xml:space="preserve">
+    <value>toolStripSeparator2</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripComboBoxCategory.Name" xml:space="preserve">
+    <value>toolStripComboBoxCategory</value>
+  </data>
+  <data name="&gt;&gt;toolStripComboBoxCategory.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;validateToolStripMenuItem.Name" xml:space="preserve">
+    <value>validateToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;validateToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>MenuCreator</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
