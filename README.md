@@ -6,13 +6,13 @@ This a application that create cards and that chooses cards randomly according t
 This learning method is called Flash Card.  
 This allows you to learn both ways.  
 
----
-
 Features :  
 
 1. Create Cards  
 2. Choose randomly Card according to categories
 3. Score for each category
+4. It's open source
+5. It's free
 
 
 --------------
@@ -28,4 +28,6 @@ Les Fonctionnalitées :
 
 1. Créer des cartes
 2. Choisir aléatoirement selon une catégorie
-2. Un score pour chaque catégorie
+3. Un score pour chaque catégorie
+4. c'est open source
+5. c'est gratuit
