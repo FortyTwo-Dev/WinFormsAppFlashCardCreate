@@ -67,7 +67,6 @@
             {
                 MessageBox.Show("Not found");
             }
-            MessageBox.Show(Convert.ToString(VarGeneral.card));
         }
 
         private void buttonRestart_Click(object sender, EventArgs e)
@@ -110,12 +109,13 @@
                 buttonResultCard1.BackColor = Color.Green;
                 buttonResultCard1.Enabled = false;
                 VarGeneral.score += 1;
+                using (StreamWriter swVar = new("CreatorFlashCard/" + VarGeneral.categoryCard + "/score.txt")) { swVar.WriteLine(Convert.ToString(VarGeneral.score)); }
             }
             else
             {
                 buttonResultCard1.BackColor = Color.Red;
                 VarGeneral.score -= 2;
-                MessageBox.Show(variable);
+                using (StreamWriter swVar = new("CreatorFlashCard/" + VarGeneral.categoryCard + "/score.txt")) { swVar.WriteLine(Convert.ToString(VarGeneral.score)); }
             }
         }
 

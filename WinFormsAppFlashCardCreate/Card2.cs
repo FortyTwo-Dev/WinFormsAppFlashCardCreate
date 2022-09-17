@@ -38,6 +38,7 @@
                     toolStripMenuItem1.Visible = false;
                     clue1B = false;
                 }
+
                 if (File.Exists(path + "/Clue/0/2.txt"))
                 {
                     clue2 = File.ReadAllText(path + "/Clue/0/2.txt");
@@ -49,6 +50,7 @@
                     toolStripMenuItem2.Visible = false;
                     clue2B = false;
                 }
+
                 if (File.Exists(path + "/Clue/0/3.txt"))
                 {
                     clue3 = File.ReadAllText(path + "/Clue/0/3.txt");
@@ -65,7 +67,7 @@
             {
                 MessageBox.Show("Not found");
             }
-            MessageBox.Show(Convert.ToString(VarGeneral.card));
+            
         }
 
         private void buttonRestart_Click(object sender, EventArgs e)
@@ -108,12 +110,14 @@
                 buttonResultCard2.BackColor = Color.Green;
                 buttonResultCard2.Enabled = false;
                 VarGeneral.score += 1;
+                using (StreamWriter swVar = new("CreatorFlashCard/" + VarGeneral.categoryCard + "/score.txt")) { swVar.WriteLine(Convert.ToString(VarGeneral.score)); }
+
             }
             else
             {
                 buttonResultCard2.BackColor = Color.Red;
                 VarGeneral.score -= 2;
-                MessageBox.Show(variable);
+                using (StreamWriter swVar = new("CreatorFlashCard/" + VarGeneral.categoryCard + "/score.txt")) { swVar.WriteLine(Convert.ToString(VarGeneral.score)); }
             }
         }
 
