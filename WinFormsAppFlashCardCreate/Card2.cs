@@ -67,7 +67,7 @@
             {
                 MessageBox.Show("Not found");
             }
-            
+
         }
 
         private void buttonRestart_Click(object sender, EventArgs e)
@@ -111,7 +111,6 @@
                 buttonResultCard2.Enabled = false;
                 VarGeneral.score += 1;
                 using (StreamWriter swVar = new("CreatorFlashCard/" + VarGeneral.categoryCard + "/score.txt")) { swVar.WriteLine(Convert.ToString(VarGeneral.score)); }
-
             }
             else
             {
