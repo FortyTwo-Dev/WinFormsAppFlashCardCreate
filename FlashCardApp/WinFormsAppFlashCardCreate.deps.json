@@ -1,0 +1,28 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "WinFormsAppFlashCardCreate/1.0.0": {
+        "runtime": {
+          "WinFormsAppFlashCardCreate.dll": {}
+        },
+        "resources": {
+          "en/WinFormsAppFlashCardCreate.resources.dll": {
+            "locale": "en"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "WinFormsAppFlashCardCreate/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
