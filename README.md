@@ -1,7 +1,7 @@
 # Flash Card Creator/Generator
 ## In English
 This a application that create cards and that chooses cards randomly according to categories.  
-> For download this application __it's necessary, click on this link : [Flash Card Creator/Generator](https://github.com/Titi0603/WinFormsAppFlashCardCreate/tree/master/FlashCard)__.  
+> For download this application __it's necessary, click on this link : [Flash Card Creator/Generator](https://github.com/Titi0603/WinFormsAppFlashCardCreate/tree/master/FlashCardApp)__.  
 
 This learning method is called Flash Card.  
 This allows you to learn both ways.  
@@ -19,7 +19,7 @@ Features :
 
 ## En Français
 Cette application peut créer des cartes et les choisir aléatoirement selon des catégories.  
-> Pour télécharger l'application __il faut, cliqué sur ce lien : [Flash Card Creator/Generator](https://github.com/Titi0603/WinFormsAppFlashCardCreate/tree/master/FlashCard)__.  
+> Pour télécharger l'application __il faut, cliqué sur ce lien : [Flash Card Creator/Generator](https://github.com/Titi0603/WinFormsAppFlashCardCreate/tree/master/FlashCardApp)__.  
 
 Cette méthode d'apprentissage s'appelle Flash Card ou carte rapide.  
 Cela permet d'apprendre dans les deux sens.  
