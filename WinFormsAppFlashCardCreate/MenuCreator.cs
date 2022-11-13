@@ -1,8 +1,10 @@
+using Microsoft.VisualBasic;
+
 namespace WinFormsAppFlashCardCreate
 {
     public partial class MenuCreator : Form
     {
-        public string CFCPath = "CreatorFlashCard/";
+        public string CFCPath = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments) + "/CreatorFlashCard/";
         public MenuCreator()
         {
             InitializeComponent();
@@ -12,7 +14,7 @@ namespace WinFormsAppFlashCardCreate
         {
             string nameFile = comboBoxCategory.Text;
             string number = VarGeneral.NumberCard(comboBoxCategory, 0);
-            string path = "CreatorFlashCard/" + nameFile + "/" + number + "/Clue/" + str + "/";
+            string path = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments) + "/CreatorFlashCard/" + nameFile + "/" + number + "/Clue/" + str + "/";
             if (check1.Checked)
             {
                 try
@@ -44,9 +46,10 @@ namespace WinFormsAppFlashCardCreate
                 string clue = newLocation + "/Clue";
                 try
                 {
+
                     Directory.CreateDirectory(newLocation);
                     using (StreamWriter swc1 = new StreamWriter(newLocation + "/0.txt")) { swc1.WriteLine(textBoxCard1.Text); }
-                    using (StreamWriter swc2 = new StreamWriter(newLocation + "/1.txt")) { swc2.WriteLine(textBoxCard2.Text); }
+                    using (StreamWriter swc2 = new StreamWriter( newLocation + "/1.txt")) { swc2.WriteLine(textBoxCard2.Text); }
                     Directory.CreateDirectory(clue);
                     Directory.CreateDirectory(clue + "/0");
                     Directory.CreateDirectory(clue + "/1");
@@ -57,6 +60,12 @@ namespace WinFormsAppFlashCardCreate
                     CheckBoxCheck(checkBoxClue1Card2, textBoxClue1Card2, "1", "1");
                     CheckBoxCheck(checkBoxClue2Card2, textBoxClue2Card2, "1", "2");
                     CheckBoxCheck(checkBoxClue3Card2, textBoxClue3Card2, "1", "3");
+
+                    textBoxCard1.Clear();
+                    textBoxCard2.Clear();
+
+                    checkBoxClue1Card1.Checked = false;
+                    checkBoxClue1Card2.Checked = false;
                 }
                 catch (Exception ex)
                 {
@@ -224,7 +233,7 @@ namespace WinFormsAppFlashCardCreate
         {
             if (comboBoxCategoryScore.Text != "")
             {
-                using (StreamWriter swVar = new("CreatorFlashCard/" + comboBoxCategoryScore.Text + "/score.txt")) { swVar.WriteLine("0"); }
+                using (StreamWriter swVar = new(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments) + "/CreatorFlashCard/" + comboBoxCategoryScore.Text + "/score.txt")) { swVar.WriteLine("0"); }
                 labelScore.Text = File.ReadAllText(CFCPath + comboBoxCategoryScore.Text + "/score.txt");
             }
             else

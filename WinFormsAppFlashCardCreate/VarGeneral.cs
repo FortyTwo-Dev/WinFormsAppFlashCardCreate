@@ -8,7 +8,7 @@
         public static int score;
         public static string NumberCard(ComboBox boxNumberVar)
         {
-            string CFCPath = "CreatorFlashCard/";
+            string CFCPath = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments) + "/CreatorFlashCard/";
             string numbervar = boxNumberVar.Text;
             string filePath = CFCPath + numbervar + "/";
             string variable = File.ReadAllText(filePath + "variable.txt");
@@ -26,7 +26,7 @@
         }
         public static string NumberCard(ComboBox boxNumberVar, int j)
         {
-            string CFCPath = "CreatorFlashCard/";
+            string CFCPath = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments) + "/CreatorFlashCard/";
             string numbervar = boxNumberVar.Text;
             string filePath = CFCPath + numbervar + "/";
             string variable = File.ReadAllText(filePath + "variable.txt");
@@ -95,7 +95,7 @@
             categoryCard = toolStripComboboxCategory.Text;
             try
             {
-                string variable = File.ReadAllText("CreatorFlashCard/" + categoryCard + "/variable.txt");
+                string variable = File.ReadAllText(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments) + "/CreatorFlashCard/" + categoryCard + "/variable.txt");
                 int i = int.Parse(variable) + 1;
                 card = random.Next(0, i);
                 firstCard = random.Next(2);
@@ -111,7 +111,7 @@
             Random random = new();
             try
             {
-                string variable = File.ReadAllText("CreatorFlashCard/" + categoryCard + "/variable.txt");
+                string variable = File.ReadAllText(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments) + "/CreatorFlashCard/" + categoryCard + "/variable.txt");
                 int i = int.Parse(variable) + 1;
                 card = random.Next(0, i);
                 firstCard = random.Next(2);

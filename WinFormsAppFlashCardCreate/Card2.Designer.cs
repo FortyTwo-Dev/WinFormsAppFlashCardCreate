@@ -66,21 +66,21 @@
             // toolStripMenuItem1
             // 
             this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            this.toolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(80, 22);
             this.toolStripMenuItem1.Text = "1";
             this.toolStripMenuItem1.Click += new System.EventHandler(this.toolStripMenuItem1_Click);
             // 
             // toolStripMenuItem2
             // 
             this.toolStripMenuItem2.Name = "toolStripMenuItem2";
-            this.toolStripMenuItem2.Size = new System.Drawing.Size(180, 22);
+            this.toolStripMenuItem2.Size = new System.Drawing.Size(80, 22);
             this.toolStripMenuItem2.Text = "2";
             this.toolStripMenuItem2.Click += new System.EventHandler(this.toolStripMenuItem2_Click);
             // 
             // toolStripMenuItem3
             // 
             this.toolStripMenuItem3.Name = "toolStripMenuItem3";
-            this.toolStripMenuItem3.Size = new System.Drawing.Size(180, 22);
+            this.toolStripMenuItem3.Size = new System.Drawing.Size(80, 22);
             this.toolStripMenuItem3.Text = "3";
             this.toolStripMenuItem3.Click += new System.EventHandler(this.toolStripMenuItem3_Click);
             // 
@@ -108,7 +108,7 @@
             this.buttonResultCard2.Location = new System.Drawing.Point(360, 286);
             this.buttonResultCard2.Name = "buttonResultCard2";
             this.buttonResultCard2.Size = new System.Drawing.Size(81, 27);
-            this.buttonResultCard2.TabIndex = 4;
+            this.buttonResultCard2.TabIndex = 2;
             this.buttonResultCard2.Text = "Result";
             this.buttonResultCard2.UseVisualStyleBackColor = true;
             this.buttonResultCard2.Click += new System.EventHandler(this.buttonResultCard2_Click);
@@ -129,7 +129,7 @@
             this.buttonRestart.Location = new System.Drawing.Point(447, 286);
             this.buttonRestart.Name = "buttonRestart";
             this.buttonRestart.Size = new System.Drawing.Size(81, 27);
-            this.buttonRestart.TabIndex = 9;
+            this.buttonRestart.TabIndex = 3;
             this.buttonRestart.Text = "Restart";
             this.buttonRestart.UseVisualStyleBackColor = true;
             this.buttonRestart.Click += new System.EventHandler(this.buttonRestart_Click);
@@ -139,7 +139,7 @@
             this.textBoxAnswer.Location = new System.Drawing.Point(99, 289);
             this.textBoxAnswer.Name = "textBoxAnswer";
             this.textBoxAnswer.Size = new System.Drawing.Size(255, 23);
-            this.textBoxAnswer.TabIndex = 10;
+            this.textBoxAnswer.TabIndex = 1;
             // 
             // Card2
             // 

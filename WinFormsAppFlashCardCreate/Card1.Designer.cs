@@ -89,7 +89,7 @@
             this.buttonResultCard1.Location = new System.Drawing.Point(360, 286);
             this.buttonResultCard1.Name = "buttonResultCard1";
             this.buttonResultCard1.Size = new System.Drawing.Size(81, 27);
-            this.buttonResultCard1.TabIndex = 7;
+            this.buttonResultCard1.TabIndex = 3;
             this.buttonResultCard1.Text = "Result";
             this.buttonResultCard1.UseVisualStyleBackColor = true;
             this.buttonResultCard1.Click += new System.EventHandler(this.buttonResultCard2_Click);
@@ -120,7 +120,7 @@
             this.buttonCancelCard2.Location = new System.Drawing.Point(12, 286);
             this.buttonCancelCard2.Name = "buttonCancelCard2";
             this.buttonCancelCard2.Size = new System.Drawing.Size(81, 27);
-            this.buttonCancelCard2.TabIndex = 5;
+            this.buttonCancelCard2.TabIndex = 1;
             this.buttonCancelCard2.Text = "Cancel";
             this.buttonCancelCard2.UseVisualStyleBackColor = true;
             this.buttonCancelCard2.Click += new System.EventHandler(this.buttonCancelCard2_Click);
@@ -131,7 +131,7 @@
             this.buttonRestart.Location = new System.Drawing.Point(447, 286);
             this.buttonRestart.Name = "buttonRestart";
             this.buttonRestart.Size = new System.Drawing.Size(81, 27);
-            this.buttonRestart.TabIndex = 8;
+            this.buttonRestart.TabIndex = 4;
             this.buttonRestart.Text = "Restart";
             this.buttonRestart.UseVisualStyleBackColor = true;
             this.buttonRestart.Click += new System.EventHandler(this.buttonRestart_Click);
@@ -141,7 +141,7 @@
             this.textBoxAnswer.Location = new System.Drawing.Point(99, 289);
             this.textBoxAnswer.Name = "textBoxAnswer";
             this.textBoxAnswer.Size = new System.Drawing.Size(255, 23);
-            this.textBoxAnswer.TabIndex = 9;
+            this.textBoxAnswer.TabIndex = 2;
             // 
             // Card1
             // 

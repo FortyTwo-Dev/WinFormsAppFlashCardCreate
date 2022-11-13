@@ -12,10 +12,10 @@
         public bool clue1B = false;
         public bool clue2B = false;
         public bool clue3B = false;
-        public string path = "CreatorFlashCard/" + VarGeneral.categoryCard + "/" + Convert.ToString(VarGeneral.card);
+        public string path = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments) + "/CreatorFlashCard/" + VarGeneral.categoryCard + "/" + Convert.ToString(VarGeneral.card);
         private void Card2_Load(object sender, EventArgs e)
         {
-            string path = "CreatorFlashCard/" + VarGeneral.categoryCard + "/" + Convert.ToString(VarGeneral.card);
+            string path = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments) + "/CreatorFlashCard/" + VarGeneral.categoryCard + "/" + Convert.ToString(VarGeneral.card);
             buttonRestart.Enabled = false;
             buttonResultCard2.Enabled = true;
             Card2 card = new()
@@ -110,19 +110,19 @@
                 buttonResultCard2.BackColor = Color.Green;
                 buttonResultCard2.Enabled = false;
                 VarGeneral.score += 1;
-                using (StreamWriter swVar = new("CreatorFlashCard/" + VarGeneral.categoryCard + "/score.txt")) { swVar.WriteLine(Convert.ToString(VarGeneral.score)); }
+                using (StreamWriter swVar = new(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments) + "/CreatorFlashCard/" + VarGeneral.categoryCard + "/score.txt")) { swVar.WriteLine(Convert.ToString(VarGeneral.score)); }
             }
             else
             {
                 buttonResultCard2.BackColor = Color.Red;
                 VarGeneral.score -= 2;
-                using (StreamWriter swVar = new("CreatorFlashCard/" + VarGeneral.categoryCard + "/score.txt")) { swVar.WriteLine(Convert.ToString(VarGeneral.score)); }
+                using (StreamWriter swVar = new(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments) + "/CreatorFlashCard/" + VarGeneral.categoryCard + "/score.txt")) { swVar.WriteLine(Convert.ToString(VarGeneral.score)); }
             }
         }
 
         private void buttonCancelCard2_Click(object sender, EventArgs e)
         {
-            using (StreamWriter swVar = new("CreatorFlashCard/" + VarGeneral.categoryCard + "/score.txt")) { swVar.WriteLine(Convert.ToString(VarGeneral.score)); }
+            using (StreamWriter swVar = new(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments) + "/CreatorFlashCard/" + VarGeneral.categoryCard + "/score.txt")) { swVar.WriteLine(Convert.ToString(VarGeneral.score)); }
             Close();
         }
 
