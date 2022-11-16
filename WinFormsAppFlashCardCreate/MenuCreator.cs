@@ -1,4 +1,6 @@
+using System.IO;
 using Microsoft.VisualBasic;
+using static System.Formats.Asn1.AsnWriter;
 
 namespace WinFormsAppFlashCardCreate
 {
@@ -76,9 +78,9 @@ namespace WinFormsAppFlashCardCreate
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            if (!Directory.Exists("CreatorFlashCard"))
+            if (!Directory.Exists(CFCPath))
             {
-                Directory.CreateDirectory("CreatorFlashCard");
+                Directory.CreateDirectory(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments) + "/CreatorFlashCard");
             }
 
             string pathDirectory = CFCPath;
@@ -226,7 +228,9 @@ namespace WinFormsAppFlashCardCreate
 
         private void comboBoxCategoryScore_SelectedIndexChanged(object sender, EventArgs e)
         {
-            labelScore.Text = File.ReadAllText(CFCPath + comboBoxCategoryScore.Text + "/score.txt");
+            string Score = File.ReadAllText(CFCPath + comboBoxCategoryScore.Text + "/score.txt");
+            Score = Score.Replace("\r\n", "").Trim();
+            labelScore.Text = Score + " / " + VarGeneral.test;
         }
 
         private void buttonResetScore_Click(object sender, EventArgs e)
@@ -234,7 +238,10 @@ namespace WinFormsAppFlashCardCreate
             if (comboBoxCategoryScore.Text != "")
             {
                 using (StreamWriter swVar = new(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments) + "/CreatorFlashCard/" + comboBoxCategoryScore.Text + "/score.txt")) { swVar.WriteLine("0"); }
-                labelScore.Text = File.ReadAllText(CFCPath + comboBoxCategoryScore.Text + "/score.txt");
+                string Score =  File.ReadAllText(CFCPath + comboBoxCategoryScore.Text + "/score.txt");
+                Score = Score.Replace("\r\n", "").Trim();
+                labelScore.Text = Score + " / 0";
+                VarGeneral.test = 0;
             }
             else
             {

@@ -718,7 +718,7 @@
     <value>Segoe UI, 12pt</value>
   </data>
   <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>557, 59</value>
+    <value>555, 63</value>
   </data>
   <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
     <value>60, 21</value>
@@ -769,13 +769,19 @@
     <value>Segoe UI, 12pt</value>
   </data>
   <data name="labelScore.Location" type="System.Drawing.Point, System.Drawing">
-    <value>623, 59</value>
+    <value>607, 63</value>
+  </data>
+  <data name="labelScore.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
   </data>
   <data name="labelScore.Size" type="System.Drawing.Size, System.Drawing">
-    <value>0, 21</value>
+    <value>49, 21</value>
   </data>
   <data name="labelScore.TabIndex" type="System.Int32, mscorlib">
     <value>23</value>
+  </data>
+  <data name="labelScore.Text" xml:space="preserve">
+    <value>Score</value>
   </data>
   <data name="&gt;&gt;labelScore.Name" xml:space="preserve">
     <value>labelScore</value>

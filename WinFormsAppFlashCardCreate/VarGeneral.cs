@@ -2,6 +2,7 @@
 {
     public static class VarGeneral
     {
+        public static int test = 0;
         public static int card;
         public static int firstCard;
         public static string categoryCard = "";

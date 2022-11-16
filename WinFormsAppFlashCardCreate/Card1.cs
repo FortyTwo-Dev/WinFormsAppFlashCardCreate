@@ -6,6 +6,7 @@
         {
             InitializeComponent();
         }
+        public int wrong = 0;
         public string clue1 = "";
         public string clue2 = "";
         public string clue3 = "";
@@ -101,20 +102,40 @@
 
         private void buttonResultCard2_Click(object sender, EventArgs e)
         {
+            VarGeneral.test++;
             string variable = File.ReadAllText(path + "/1.txt");
             variable = variable.Replace("\r\n", "").Trim();
-            if (variable == textBoxAnswer.Text)
+            if (variable == textBoxAnswer.Text || wrong == 3)
             {
+                if (wrong == 3)
+                {
+                    buttonRestart.Enabled = true;
+                    buttonResultCard1.BackColor = Color.Orange;
+                    buttonResultCard1.Enabled = false;
+                    labelCard1.Text = variable;
+                    wrong = 0;
+                    VarGeneral.score += 1;
+                    using (StreamWriter swVar = new(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments) + "/CreatorFlashCard/" + VarGeneral.categoryCard + "/score.txt")) { swVar.WriteLine(Convert.ToString(VarGeneral.score)); }
+                }
+                else
+                {
                 buttonRestart.Enabled = true;
                 buttonResultCard1.BackColor = Color.Green;
                 buttonResultCard1.Enabled = false;
+                wrong = 0;
                 VarGeneral.score += 1;
                 using (StreamWriter swVar = new(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments) + "/CreatorFlashCard/" + VarGeneral.categoryCard + "/score.txt")) { swVar.WriteLine(Convert.ToString(VarGeneral.score)); }
+                }
             }
             else
             {
+                wrong++;
                 buttonResultCard1.BackColor = Color.Red;
                 VarGeneral.score -= 2;
+                if (VarGeneral.score < 0)
+                {
+                    VarGeneral.score = 0;
+                }
                 using (StreamWriter swVar = new(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments) + "/CreatorFlashCard/" + VarGeneral.categoryCard + "/score.txt")) { swVar.WriteLine(Convert.ToString(VarGeneral.score)); }
             }
         }
